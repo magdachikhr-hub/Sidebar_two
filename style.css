@@ -59,6 +59,53 @@ header {
       /* background-color: ; */
       border: none;
       outline: none;
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+    }
+    input::placeholder {
+      color: #9e9e9e;
+      font-size: 16px;
+    }
+    div.navigation {
+      gap: 37px;
+
+      a {
+        font-size: 16px;
+        color: #9e9e9e;
+        text-decoration: none;
+        font-weight: 600;
+        line-height: 120%;
+      }
+    }
+    .additional_settings_texts {
+      gap: 37px;
+      margin-top: 252px;
+
+      .user {
+        height: 89px;
+        background-color: #333333;
+        justify-content: center;
+
+        p.username {
+          color: white;
+          font-size: 16px;
+          font-weight: 600;
+          margin-bottom: 8px;
+        }
+        span.mail {
+          color: #808080;
+          font-size: 12px;
+        }
+      }
     }
   }
+}
+
+header:hover div.texts {
+  max-width: 198.5px;
+  opacity: 1;
+}
+
+header:hover {
+  padding-right: 17.75px;
 }
