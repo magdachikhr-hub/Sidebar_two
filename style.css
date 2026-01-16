@@ -93,7 +93,7 @@ header {
     }
     .additional_settings_texts {
       gap: 37.8px;
-      margin-top: 202px;
+      /* margin-top: 202px; */
 
       .user {
         height: 89px;
@@ -103,6 +103,7 @@ header {
         padding-left: 16px;
         border-top-right-radius: 8px;
         border-bottom-right-radius: 8px;
+        margin-top: 5.2px;
 
         p.username {
           color: white;
