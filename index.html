@@ -8,12 +8,14 @@
   </head>
   <body>
     <header>
-      <div class="logos flex-column">
-        <img src="./images/Frame 1.svg" alt="logo image" />
+      <div class="logos">
+        <div class="main_logo">
+          <img src="./images/Frame 1.svg" alt="logo image" />
+        </div>
         <div class="search_box">
           <img src="./images/search (1).svg" alt="" />
         </div>
-        <nav>
+        <nav class="flex-column">
           <a href="./index.html"
             ><img src="./images/home.svg" alt="Home logo"
           /></a>
@@ -25,7 +27,7 @@
 
           <a href="#"><img src="./images/switch.svg" alt="Reporting logo" /></a>
         </nav>
-        <div class="additional_settings">
+        <div class="additional_settings flex-column">
           <a href="#"
             ><img src="./images/bell.svg" alt="Notifications logo"
           /></a>
@@ -35,13 +37,15 @@
           <a href="#"
             ><img src="./images/settings.svg" alt="Settings logo"
           /></a>
-          <a href="#"><img src="./images/avatar.svg" alt="" /></a>
+          <div class="avatar_logo">
+            <a href="#"><img src="./images/avatar.svg" alt="" /></a>
+          </div>
         </div>
       </div>
       <div class="texts">
         <h1>Untitled</h1>
         <input type="search" placeholder="search" />
-        <div class="navigation .flex-column">
+        <div class="navigation flex-column">
           <a href="./index.html">Home</a>
           <a href="#">Dashboard</a>
           <a href="#">Projects</a>
