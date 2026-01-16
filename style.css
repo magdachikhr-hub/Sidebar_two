@@ -9,6 +9,11 @@ body {
   height: 2000px;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   background-color: #2c2c2c;
   position: fixed;
@@ -20,7 +25,40 @@ header {
   padding: 40px 17.75px;
 
   div.logos {
+    .search_box {
+      width: 52.5px;
+      height: 52.5px;
+      /* background-color: ; */
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 44.47px 0 32px 0;
+    }
+    nav {
+      align-items: center;
+      gap: 32px;
+      margin-bottom: 251px;
+    }
+    div.additional_settings {
+      align-items: center;
+      gap: 32px;
+    }
   }
   div.texts {
+    h1 {
+      color: white;
+      font-size: 24px;
+      font-weight: 600;
+    }
+    input {
+      margin: 44.47px 0 32px -25px;
+      width: 223.5px;
+      height: 52.5px;
+      /* background-color: ; */
+      border: none;
+      outline: none;
+    }
   }
 }
